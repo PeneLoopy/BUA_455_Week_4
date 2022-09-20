@@ -1,0 +1,21 @@
+gender,hair_color,median_height,number_of_characters
+feminine,auburn,150,1
+feminine,black,166,3
+feminine,blonde,168,1
+feminine,brown,165,6
+feminine,none,178,5
+feminine,white,167,1
+masculine,"auburn, grey",180,1
+masculine,"auburn, white",182,1
+masculine,black,183,9
+masculine,blond,172,3
+masculine,brown,183,11
+masculine,"brown, grey",178,1
+masculine,grey,170,1
+masculine,none,190.5,31
+masculine,white,193,3
+masculine,NA,167,5
+NA,black,183,1
+NA,brown,183,1
+NA,none,178,1
+NA,unknown,NA,1
