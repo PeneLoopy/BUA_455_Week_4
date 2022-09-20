@@ -515,16 +515,18 @@ starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
 
 - Examine the new dataset using glimpse.
 
-- The variables in your new dataset should be **`wt`**, **`mpg`**, and **`cyl`**. 
+- Create a factor variable, cylF, in this dataset. No levels or labels are needed.
+
+- The variables in your new dataset should be **`wt`**, **`mpg`**, **`cyl`**, and **`cylF`**
 
 - You can examine the definitions of these variables by examining the dataset help file:
 
 1. In the console, type ?mtcars
 2. Examine the dataset documentation in the help window in the lower right panel of RStudio.
 
-- Create and save a scatter plot with **`x = wt`**, **`y = mpg`**, and **`color = factor(cyl)`**.
+- Create and save a scatter plot with **`x = wt`**, **`y = mpg`**, and **`color = cylF`**.
 
-**Note that color = factor(cyl) is used because cylinder is an ordinal categorical variable and we want the plot to show that.**
+**Explore: How would plot look if cyl was used instead of cylF**
 
 Click on the dataset in the Global Environment to answer questions 1 and 2
 
@@ -540,6 +542,10 @@ Hint: Once the dataset is opened, remember that you can click on a column to sor
 my_mtcars2 <- my_mtcars[6:25, c(1,2,6)] |>
   glimpse(width = 40)
 
+my_mtcars2 <- my_mtcars2 |>
+  mutate(cylF=factor(cyl)) |> 
+  glimpse(width=40)
+
 ```
 
 ]
@@ -551,7 +557,7 @@ my_mtcars2 <- my_mtcars[6:25, c(1,2,6)] |>
 ```{r Q2 part 2, fig.dim=c(5,3)}
 (mtcars_scatter <- my_mtcars2 |>    
    ggplot() +
-   geom_point(aes(x=wt, y=mpg, color=factor(cyl))))
+   geom_point(aes(x=wt, y=mpg, color=cylF)))
 
 ```
 
