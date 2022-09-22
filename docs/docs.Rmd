@@ -504,6 +504,32 @@ starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
 
 ---
 
+### Practice Question 1 (abridged)
+
+Examine the my_mtcars dataset using **`glimpse`**.
+
+**`1.`** How many rows are in the original my_mtcars dataset?
+
+
+**`2.`** `mtcars` is an older dataset so although there are many kinds of variables they are all coded as one type of variable for simplicity.
+
+All of the variables in the **`my_mtcars`** dataset are type `____`?
+ 
+Save a new version of `my_mtcars` to a new name such as `my_mtcars1` and filter the new dataset to:
+
+only include cars with BOTH a straight engine (variable is `vs`) and an automatic transmission (variable is `am`).
+
+Examine the new filtered data set in the Global Environment or using `glimpse`.
+
+**`3.`** How many rows are in this new filtered dataset you created?
+ 
+
+Click on this new filtered dataset in the Global Environment to answer this question. Round your answer to a whole number.
+
+**`4.`** Within the new filtered dataset, the highest mpg (miles per gallon) is `____`.
+
+---
+
 ### Example Practice Question (Question 2)
 
 .panelset[
@@ -515,7 +541,7 @@ starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
 
 - Examine the new dataset using glimpse.
 
-- Create a factor variable, cylF, in this dataset. No levels or labels are needed.
+- Create a factor variable, **`cylF`**, from **`cyl`** in this dataset. No levels or labels are needed.
 
 - The variables in your new dataset should be **`wt`**, **`mpg`**, **`cyl`**, and **`cylF`**
 
@@ -526,7 +552,7 @@ starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
 
 - Create and save a scatter plot with **`x = wt`**, **`y = mpg`**, and **`color = cylF`**.
 
-**Explore: How would plot look if cyl was used instead of cylF**
+**Explore:** How would plot look if **`cyl`** was used instead of **`cylF`**
 
 Click on the dataset in the Global Environment to answer questions 1 and 2
 
