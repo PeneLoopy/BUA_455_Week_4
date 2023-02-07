@@ -4,6 +4,7 @@
     <title>BUA 455 - Week 4</title>
     <meta charset="utf-8" />
     <meta name="author" content="Penelope Pooler Eisenbies" />
+    <meta name="date" content="2023-02-07" />
     <script src="docs_files/header-attrs/header-attrs.js"></script>
     <link href="docs_files/panelset/panelset.css" rel="stylesheet" />
     <script src="docs_files/panelset/panelset.js"></script>
@@ -48,7 +49,7 @@ class: bottom, right
 
 #### Penelope Pooler Eisenbies
 
-#### "September 20th and 22nd, 2022"
+#### "2023-02-07"
 
 [Wikipedia Sloth Page](https://en.wikipedia.org/wiki/Sloth)
 
@@ -56,7 +57,7 @@ class: bottom, right
 
 ### Reminders:
 
-#### HW 3 Due 9/21
+#### HW 3 Due 2/8
 
 **There is a 2 day grace period on this assignment.**
 
@@ -64,7 +65,7 @@ class: bottom, right
 
 - A list of text sections can be found **[here](https://docs.Google.com/spreadsheets/d/1yhUSJAJQ4VVjVBpiv3_C2D3tQs2SmJjynSq9chqXOwc/edit?usp=sharing)** and will be updated as the course progresses.
 
-### Quiz 1 on Thursday 9/29
+### Quiz 1 on Thursday 2/17
 
 - Weeks 1 - 4 (Lectures 1 - 8)
   
@@ -80,60 +81,132 @@ class: bottom, right
 
 ---
 
-### Detour and Preview
+### Side Trip for a Great Question
 
-.pull-left[
+###   **`%&gt;%`**     vs.     **`|&gt;`**
 
-**How to talk about your skillset**
+- What's the difference?
 
-At the end of this course, I cover some related topics.
+- For your purposes they are interchangeable, but |&gt; is newer 
 
-One key topic for students: 
-- How do we explain our skills?
+- `%&gt;%` requires `magrittr` package but `|&gt;` doesn't 
 
-It can be more difficult than you expect.
+   - I load it anyways as a precaution in case I need other pipe functions
+   
+- `|&gt;` may give you an error if are working on a machine with an old version of R or RStudio
+
+- `|&gt;` is slightly more efficient because of what the computer is doing is slightly different
+
+- [More information for those who are interested (not required)](https://www.r-bloggers.com/2021/05/the-new-r-pipe/)
+
+
+---
+
+### Week 4 In-class Exercises (L7 - Q1) - NOT ON PointSolutions
+
+**Practice:**
+
+- Running chunks and exporting a table.
+
+- **Preview for one question in Quiz 1 where you will:** 
+  - Select variables from a provided dataset
+  - Group and summarize data
+  - Export a summary table as a .csv file and submit it.
+
+**Instructions:** 
+
+1. Save Week 4 R project to your computer 
+2. Open this project by clicking on .Rproj file
+3. Open .Rmd file within open R project.
+4. Run chunk after these instructions to import, modify, summarize, and filter data (review)
+
+---
+
+### Import and Data Preparation 
+
+
+```r
+mojo_22_fall_wknd &lt;- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types=F) |&gt;   # import data
+  mutate(Month = factor(month,                                                        # create factors
+                         levels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                                  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")),
+         Day = factor(day,     
+                         levels=c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
+                         labels= c("M", "T", "W", "Th", "F", "Sa", "Su"))) |&gt;
+  select(Month, Day, top10gross) |&gt;                                                  # select variables
+  group_by(Month, Day) |&gt;                                                            # group by category
+  summarize(max_top10g = max(top10gross, na.rm=T)) |&gt;                                # summarize
+  ungroup() |&gt;                                                                       # ungroup
+  filter(Day %in% c("F", "Sa", "Su") &amp; Month %in% c("Sep", "Oct", "Nov", "Dec"))     # filter fall wknds
+```
+
+---
+
+### What we will do with **`mojo_22_fall_wknd`**
+
+**`5.`** In the second chunk after these instructions, modify code to:
+
+   i. Use `mutate` to convert values to millions (divide by 1000000) and round to 4 decimal places.
+
+   ii. Use `pivot_wider` to reshape data to Wide format with one column for month and one column for each day of week.
+
+   iii. Round reshaped data to two decimal places (demo of how to multiple columns at once).
+
+   iv. Export reshaped data with rounded values (2 decimal places) to a .csv file to be submitted.
+
+   v. Write a separate statement to pipe this table to a `kable()` command to practice that skill.
+   
+&lt;br&gt;
+**`6.`** Submit the .csv file with your name in the **Week 4 In-class Exercise** in the **LECTURES** section on Blackboard
+
+**NOTES:** 
+
+- This counts as part of your **in-class participation** for Lecture 6 and is due by Wednesday, 2/8 at midnight.
+
+- No late work is accepted for in-class exercises but this does not count towards your HW grade.
+
+- We will do more in-class exercises throughout the semester.
+
+---
+
+### In-class Excerise Code will be done together
+
+
+```r
+mojo_22_fall_wknd_wide &lt;- mojo_22_fall_wknd
+
+
+
+
+#write_csv()
+```
+
+
+
+---
+
+class: middle
+
+### Week 3 In-class Exercises (L6 - Q2)
+
+***NOT ON PointSolutions***
+
+If all the columns in a dataset are numeric, you can round the whole dataset at once with the command `round(&lt;name of dataset&gt;)`.
+
+Why wouldn't that work for the dataset in the previous exercise, `mojo_22_fall_wknd_wide`?
 
 &lt;br&gt;
 
-**Good News:**
+Hint: To answer this question, you are encourage to 
 
-'Data Camp' has published a [White Paper about Data Fluency](https://drive.google.com/file/d/1_VoM3D6tPftjZpXCnTL8SKYBlOM_4KjG/view?usp=sharing).
+- try running the command `round(mojo_22_fall_wknd_wide)` 
 
-It includes a great summary of skills and how they translate into roles in a working environment.
-
-You do not have to read all 17 pages and you **DEFINITELY** will not be tested on this.
-
-]
-
-.pull-right[
-
-
-![white_paper](docs_files/images/data_camp_white_paper.png)
-
-]
-
+- examine the data using `glimpse` 
 
 ---
 
-### HW 3
+## Review of Skills Learned
 
-.pull-left[
-
-- - Before we discuss review for Quiz 1, we will complete HW 3 together.
-
-- I will ask if there are questions about the first few parts
-
-- Then we will work through Parts 3, 4, and 5
-
-]
-
-.pull-right[
-
-![](docs_files/images/owl.png)
-
-]
-
----
 
 ### Week 1
 
@@ -186,19 +259,18 @@ You do not have to read all 17 pages and you **DEFINITELY** will not be tested o
   
 ---
 
-### Week 3
+### Week 3 (Included Review of Weeks 1 and 2)
 
-- Review of Weeks 1 and 2 
-  
 - Coercion commands to coerce a variable to the type needed
-    - `as.integer`, `as.numeric`, `as.character`
-    
-       - HW 3 included `as.integer`
-       
-       - Week 3 included a preview demo of `as.numeric`
-       
+  
+   - `as.integer`, `as.numeric`, `as.character`
+   - HW 3 included `as.integer`    
+   - Week 3 included a preview demo of `as.numeric`
 
-- `dplyer` commands `group_by` and `summarize`
+- `dplyer` commands 
+
+   - `group_by` and `filter`
+   - `group_by` and `summarize`
   
 - Commands to reshape data:
     - `pivot_wider`and  `pivot_longer`
@@ -219,7 +291,8 @@ You do not have to read all 17 pages and you **DEFINITELY** will not be tested o
 
 - Students will have 70 minutes
 
-- Students with an accomdation we will schedule an alternative.
+- Students with an accommodation we will schedule an alternative.
+  - Tentative alternative: Friday 2/17 at 3:00 PM  
 
 - All students must work alone.
 
@@ -249,14 +322,14 @@ You do not have to read all 17 pages and you **DEFINITELY** will not be tested o
 
 - TAs and I will complete grading together.
 
-- For each question, R code (60%) and Blackboard answers (40%) will count towards final grade.
+- For each question, R code (65%) and Blackboard answers (45%) will count towards final grade.
 
 - Quiz 1 is worth 22.5% of your final grade in this course.
 
 
 ### Practice Questions for Quiz 1
 
-- There are a set of 11 practice questions posted on Blackboard.
+- There are a set of 14 practice questions posted on Blackboard.
 
 - Your Quiz 1 questions will be similar to these and will use these same datasets or similar ones.
 
@@ -354,7 +427,7 @@ Click on dataset name in Global Environment.
 
 
 #### Week 4 In-class Exercises (L7 - Q1-Q2)
-***Point Solutions Session ID: bua455s22***
+***Point Solutions Session ID: bua455s23***
 
 **`Q1.`** The `mtcars` dataset is saved as `my_mtcars` in the Global Environment.
 
@@ -379,18 +452,8 @@ The car with the **LOWEST** fuel efficiency (`mpg`) is the
 my_mtcars &lt;- mtcars
 my_diamonds &lt;- diamonds
 my_starwars &lt;- starwars
-my_orange &lt;- Orange |&gt; glimpse()
-```
+my_orange &lt;- Orange
 
-```
-## Rows: 35
-## Columns: 3
-## $ Tree          &lt;ord&gt; 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3,…
-## $ age           &lt;dbl&gt; 118, 484, 664, 1004, 1231, 1372, 1582, 118, 484, 664, 10…
-## $ circumference &lt;dbl&gt; 30, 58, 87, 115, 120, 142, 145, 33, 69, 111, 156, 172, 2…
-```
-
-```r
 # import these two summary datasets 
 # mn_numreleases is the mean number of releases in movie_smry_w1
 movie_smry_w1 &lt;- read_csv("Movie_Summary_Wide_1.csv", 
@@ -398,6 +461,9 @@ movie_smry_w1 &lt;- read_csv("Movie_Summary_Wide_1.csv",
 # mn_top10gross is the mean gross of the top 10 movies in movie_smry_w2
 movie_smry_w2 &lt;- read_csv("Movie_Summary_Wide_2.csv", 
                           show_col_types = F)
+
+# mojo1999 is the full year of movie data from 1999
+mojo1999 &lt;- read_csv("Box_Office_Mojo_1999.csv", show_col_types = F)
 ```
 
 ---
@@ -406,7 +472,7 @@ movie_smry_w2 &lt;- read_csv("Movie_Summary_Wide_2.csv",
 
 - 2 Questions about `mtcars` saved as `my_mtcars`
 
-- 2 Questions about `diamonds` saved as `my_diamonds`
+- 3 Questions about `diamonds` saved as `my_diamonds`
 
 - 1 Question about `starwars` saved as `my_starwars`
 
@@ -425,6 +491,8 @@ starwars_smry &lt;- read_csv("Starwars_Summary.csv", show_col_types = F)
 
   - `Movie_Summary_Wide_1.csv` imported as `movie_smry_w1`
   - `Movie_Summary_Wide_2.csv` imported as `movie_smry_w2`
+  
+- 2 Questions about 1 imported full year of Movie data, imported as `mojo_1999`.
   
 &lt;br&gt;
   
@@ -458,7 +526,43 @@ Click on this new filtered dataset in the Global Environment to answer this ques
 
 ---
 
-### Example Practice Question (Question 2)
+### Plan for Thursday
+
+.pull-left[
+
+- I will post a video for each Practice Question
+
+- You should 
+
+  - Finish HW 3
+  
+  - Read through these questions.
+  
+    - Take notes of questions you don't understand
+    
+    - Clarifications requested will make Quiz 1 more clear.
+    
+    - Practice Questions have typos. 
+      - **Please let me know.**
+    
+### Time for Questions
+
+- Questions about Practice Questions and Quiz 1
+
+- Individual Questions about HW 3
+
+]
+
+.pull-right[
+
+![Hard Working Beaver](docs_files/images/beaver.png)
+
+]
+
+
+---
+
+### Practice Question (Question 2)
 
 .panelset[
 
@@ -542,18 +646,18 @@ my_mtcars2 &lt;- my_mtcars2 |&gt;
 
 .panel[.panel-name[**Questions**]
 
-***Point Solutions Session ID: bua455s22***
-#### Week 4 In-class Exercises (L7 - Q3-Q5)
+***Point Solutions Session ID: bua455s23***
+#### Week 4 In-class Exercises (L8 - Q1-Q3)
 
-**`Q3`** How many categories are in the cyl (cylinder) variable in the dataset you created?
-
-&lt;br&gt;
-
-**`Q4`** The lowest mpg in your new dataset is
+**`Q1`** How many categories are in the cyl (cylinder) variable in the dataset you created?
 
 &lt;br&gt;
 
-**`Q5`** Based on the plot, specify whether the correlation between each pair of variables is positive (1) or negative (2).
+**`Q2`** The lowest mpg in your new dataset is
+
+&lt;br&gt;
+
+**`Q3`** Based on the plot, specify whether the correlation between each pair of variables is positive (1) or negative (2).
 
 Enter the number of the correct choice.
 
@@ -569,42 +673,6 @@ Enter the number of the correct choice.
 
 ---
 
-### Plan for Thursday
-
-.pull-left[
-
-- I plan to make videos for each question
-
-- You should 
-
-  - Finish HW 3
-  
-  - Read through these questions.
-  
-    - Take notes of questions you don't understand
-    
-    - Clarifications requested will make Quiz 1 more clear.
-    
-    - Practice Questions have typos. 
-      - **Please let me know.**
-    
-### Time for Questions
-
-- Questions about Practice Questions and Quiz 1
-
-- Individual Questions about HW 3
-
-]
-
-.pull-right[
-
-![Hard Working Beaver](docs_files/images/beaver.png)
-
-]
-
-
-
----
 
 background-image: url("docs_files/images/tired_panda_faded.png")
 background-size: cover
@@ -640,7 +708,7 @@ background-size: cover
 
 
 .bg-azure.b--dark_cyan.ba.bw2.br3.shadow-5.ph3[
-**You may submit an 'Engagement Question or Comment' about Week 4 lectures until Thursday, 9/22, at midnight on Blackboard.**
+You may submit an 'Engagement Question' about each lecture until midnight on the day of the lecture. **A minimum of four submissions are required during the semester.**
 ]
 
 

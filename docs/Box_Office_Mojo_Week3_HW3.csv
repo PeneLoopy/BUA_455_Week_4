@@ -1,0 +1,366 @@
+date,month,day,quart,top10gross,num1gross,num_releases,num1
+2022-12-31,Dec,Sat,4,27962493,18053159,30,Avatar: The Way of Water
+2022-12-30,Dec,Fri,4,37900613,24836835,30,Avatar: The Way of Water
+2022-12-29,Dec,Thu,4,31204428,20117061,27,Avatar: The Way of Water
+2022-12-28,Dec,Wed,4,31866473,20582014,27,Avatar: The Way of Water
+2022-12-27,Dec,Tue,4,37343124,24128503,27,Avatar: The Way of Water
+2022-12-26,Dec,Mon,4,46963277,32270430,28,Avatar: The Way of Water
+2022-12-25,Dec,Sun,4,43485546,29179791,27,Avatar: The Way of Water
+2022-12-24,Dec,Sat,4,21255461,14869288,27,Avatar: The Way of Water
+2022-12-23,Dec,Fri,4,29211733,19289141,27,Avatar: The Way of Water
+2022-12-22,Dec,Thu,4,20101091,14632040,29,Avatar: The Way of Water
+2022-12-21,Dec,Wed,4,21315270,14403438,30,Avatar: The Way of Water
+2022-12-20,Dec,Tue,4,21925733,18288904,30,Avatar: The Way of Water
+2022-12-19,Dec,Mon,4,19052001,16257078,29,Avatar: The Way of Water
+2022-12-18,Dec,Sun,4,42230148,36572069,30,Avatar: The Way of Water
+2022-12-17,Dec,Sat,4,51418191,44327887,29,Avatar: The Way of Water
+2022-12-16,Dec,Fri,4,57866360,53200270,29,Avatar: The Way of Water
+2022-12-15,Dec,Thu,4,2282964,688851,32,Black Panther: Wakanda Forever
+2022-12-14,Dec,Wed,4,3018611,909059,33,Black Panther: Wakanda Forever
+2022-12-13,Dec,Tue,4,3932901,1144342,35,Black Panther: Wakanda Forever
+2022-12-12,Dec,Mon,4,2938862,903453,33,Black Panther: Wakanda Forever
+2022-12-11,Dec,Sun,4,9510921,3195195,35,Black Panther: Wakanda Forever
+2022-12-10,Dec,Sat,4,15466337,5178818,36,Black Panther: Wakanda Forever
+2022-12-09,Dec,Fri,4,8846320,2860689,34,Black Panther: Wakanda Forever
+2022-12-08,Dec,Thu,4,3792849,1165072,29,Black Panther: Wakanda Forever
+2022-12-07,Dec,Wed,4,3943414,1144653,28,Black Panther: Wakanda Forever
+2022-12-06,Dec,Tue,4,5526292,1567075,30,Black Panther: Wakanda Forever
+2022-12-05,Dec,Mon,4,3895004,1162850,29,Black Panther: Wakanda Forever
+2022-12-04,Dec,Sun,4,13327779,4908833,29,Black Panther: Wakanda Forever
+2022-12-03,Dec,Sat,4,21746080,8171837,31,Black Panther: Wakanda Forever
+2022-12-02,Dec,Fri,4,14111815,4869770,29,Violent Night
+2022-12-01,Dec,Thu,4,4767528,1851240,25,Black Panther: Wakanda Forever
+2022-11-30,Nov,Wed,4,4405292,1918716,24,Black Panther: Wakanda Forever
+2022-11-29,Nov,Tue,4,5848911,2681411,25,Black Panther: Wakanda Forever
+2022-11-28,Nov,Mon,4,4597554,2208258,24,Black Panther: Wakanda Forever
+2022-11-27,Nov,Sun,4,20116146,9754235,28,Black Panther: Wakanda Forever
+2022-11-26,Nov,Sat,4,34060152,17599193,29,Black Panther: Wakanda Forever
+2022-11-25,Nov,Fri,4,35559618,18230476,29,Black Panther: Wakanda Forever
+2022-11-24,Nov,Thu,4,17101407,8164083,30,Black Panther: Wakanda Forever
+2022-11-23,Nov,Wed,4,21821636,10052869,32,Black Panther: Wakanda Forever
+2022-11-22,Nov,Tue,4,14128236,9492924,29,Black Panther: Wakanda Forever
+2022-11-21,Nov,Mon,4,11288507,7002759,29,Black Panther: Wakanda Forever
+2022-11-20,Nov,Sun,4,28259098,19710460,29,Black Panther: Wakanda Forever
+2022-11-19,Nov,Sat,4,41248978,28772668,29,Black Panther: Wakanda Forever
+2022-11-18,Nov,Fri,4,29488645,17999138,29,Black Panther: Wakanda Forever
+2022-11-17,Nov,Thu,4,8937676,7480079,27,Black Panther: Wakanda Forever
+2022-11-16,Nov,Wed,4,9783542,8110601,29,Black Panther: Wakanda Forever
+2022-11-15,Nov,Tue,4,14854835,12636707,28,Black Panther: Wakanda Forever
+2022-11-14,Nov,Mon,4,12776780,11125499,29,Black Panther: Wakanda Forever
+2022-11-13,Nov,Sun,4,47113613,40922989,29,Black Panther: Wakanda Forever
+2022-11-12,Nov,Sat,4,66610882,56131051,30,Black Panther: Wakanda Forever
+2022-11-11,Nov,Fri,4,93156358,84285721,31,Black Panther: Wakanda Forever
+2022-11-10,Nov,Thu,4,3319142,951078,33,Black Adam
+2022-11-09,Nov,Wed,4,3634689,1070591,34,Black Adam
+2022-11-08,Nov,Tue,4,6317801,2055912,33,Black Adam
+2022-11-07,Nov,Mon,4,4174057,1328183,34,Black Adam
+2022-11-06,Nov,Sun,4,14155088,5270433,34,Black Adam
+2022-11-05,Nov,Sat,4,22499016,8296544,34,Black Adam
+2022-11-04,Nov,Fri,4,17234584,4838903,34,One Piece Film: Red
+2022-11-03,Nov,Thu,4,4409675,1631838,34,Black Adam
+2022-11-02,Nov,Wed,4,4534367,1720811,35,Black Adam
+2022-11-01,Nov,Tue,4,6737881,2604658,33,Black Adam
+2022-10-31,Oct,Mon,4,7047076,1977587,34,Black Adam
+2022-10-30,Oct,Sun,4,18278615,8207517,36,Black Adam
+2022-10-29,Oct,Sat,4,26108515,11812685,37,Black Adam
+2022-10-28,Oct,Fri,4,19554153,7451938,37,Black Adam
+2022-10-27,Oct,Thu,4,6463896,3124177,35,Black Adam
+2022-10-26,Oct,Wed,4,7009550,3353669,33,Black Adam
+2022-10-25,Oct,Tue,4,10586504,5453792,33,Black Adam
+2022-10-24,Oct,Mon,4,8220793,4502706,34,Black Adam
+2022-10-23,Oct,Sun,4,27677361,16603514,33,Black Adam
+2022-10-22,Oct,Sat,4,41349182,23712485,34,Black Adam
+2022-10-21,Oct,Fri,4,41169215,26688324,34,Black Adam
+2022-10-20,Oct,Thu,4,3484078,1062103,34,Smile
+2022-10-19,Oct,Wed,4,4142565,1274995,35,Halloween Ends
+2022-10-18,Oct,Tue,4,5793095,2085660,35,Halloween Ends
+2022-10-17,Oct,Mon,4,4775384,1751325,35,Halloween Ends
+2022-10-16,Oct,Sun,4,15516864,6642010,35,Halloween Ends
+2022-10-15,Oct,Sat,4,27225421,13032850,35,Halloween Ends
+2022-10-14,Oct,Fri,4,29954983,20375495,34,Halloween Ends
+2022-10-13,Oct,Thu,4,4127828,1521240,39,Smile
+2022-10-12,Oct,Wed,4,4441233,1659865,39,Smile
+2022-10-11,Oct,Tue,4,5856705,2084533,37,Smile
+2022-10-10,Oct,Mon,4,7904958,2665031,39,Smile
+2022-10-09,Oct,Sun,4,15440552,5676188,41,Smile
+2022-10-08,Oct,Sat,4,21686777,7450041,41,Smile
+2022-10-07,Oct,Fri,4,16684348,5416339,41,Smile
+2022-10-06,Oct,Thu,4,4795451,2091135,45,Smile
+2022-10-05,Oct,Wed,4,5442160,2410604,44,Smile
+2022-10-04,Oct,Tue,4,6726815,2981567,43,Smile
+2022-10-03,Oct,Mon,4,4782388,2201431,44,Smile
+2022-10-02,Oct,Sun,4,14706576,5759618,47,Smile
+2022-10-01,Oct,Sat,4,22876709,8615905,46,Smile
+2022-09-30,Sep,Fri,3,19336153,8234402,46,Smile
+2022-09-29,Sep,Thu,3,4153601,1154262,46,Don't Worry Darling
+2022-09-28,Sep,Wed,3,4096881,1322508,43,Don't Worry Darling
+2022-09-27,Sep,Tue,3,6003902,2006011,44,Don't Worry Darling
+2022-09-26,Sep,Mon,3,5269152,1668649,45,Don't Worry Darling
+2022-09-25,Sep,Sun,3,14431146,4106237,47,Don't Worry Darling
+2022-09-24,Sep,Sat,3,21281664,5777095,47,Don't Worry Darling
+2022-09-23,Sep,Fri,3,20159356,9469881,47,Don't Worry Darling
+2022-09-22,Sep,Thu,3,3230224,1212564,48,The Woman King
+2022-09-21,Sep,Wed,3,3745150,1337259,48,The Woman King
+2022-09-20,Sep,Tue,3,5211892,2115447,48,The Woman King
+2022-09-19,Sep,Mon,3,3880097,1437012,48,The Woman King
+2022-09-18,Sep,Sun,3,11742235,5110767,51,The Woman King
+2022-09-17,Sep,Sat,3,17100115,7121993,52,The Woman King
+2022-09-16,Sep,Fri,3,14406673,6818682,50,The Woman King
+2022-09-15,Sep,Thu,3,2363949,774940,42,Barbarian
+2022-09-14,Sep,Wed,3,2747409,940974,45,Barbarian
+2022-09-13,Sep,Tue,3,4000814,1337647,44,Barbarian
+2022-09-12,Sep,Mon,3,2827557,1017924,45,Barbarian
+2022-09-11,Sep,Sun,3,9196286,2737004,46,Barbarian
+2022-09-10,Sep,Sat,3,14077942,3962988,47,Barbarian
+2022-09-09,Sep,Fri,3,10701752,3843956,47,Barbarian
+2022-09-08,Sep,Thu,3,2299144,395645,40,After Ever Happy
+2022-09-07,Sep,Wed,3,2837347,555056,38,After Ever Happy
+2022-09-06,Sep,Tue,3,3296795,525700,37,Bullet Train
+2022-09-05,Sep,Mon,3,11941671,1906497,42,Top Gun: Maverick
+2022-09-04,Sep,Sun,3,14772769,2290699,41,Top Gun: Maverick
+2022-09-03,Sep,Sat,3,18780708,2617003,40,Top Gun: Maverick
+2022-09-02,Sep,Fri,3,8858474,1754503,39,Spider-Man: No Way Home
+2022-09-01,Sep,Thu,3,3216411,502540,40,Bullet Train
+2022-08-31,Aug,Wed,3,3534373,525045,40,Bullet Train
+2022-08-30,Aug,Tue,3,5339850,776588,39,Bullet Train
+2022-08-29,Aug,Mon,3,3679873,533295,40,The Invitation
+2022-08-28,Aug,Sun,3,11446998,1609214,42,Bullet Train
+2022-08-27,Aug,Sat,3,17390684,2515143,41,The Invitation
+2022-08-26,Aug,Fri,3,12570356,2681924,41,The Invitation
+2022-08-25,Aug,Thu,3,5080823,910332,36,Dragon Ball Super: Super Hero
+2022-08-24,Aug,Wed,3,5605032,1054238,35,Dragon Ball Super: Super Hero
+2022-08-23,Aug,Tue,3,8346802,1594446,36,Dragon Ball Super: Super Hero
+2022-08-22,Aug,Mon,3,6933325,1515456,35,Dragon Ball Super: Super Hero
+2022-08-21,Aug,Sun,3,18472443,4396179,38,Dragon Ball Super: Super Hero
+2022-08-20,Aug,Sat,3,25615322,5814424,38,Dragon Ball Super: Super Hero
+2022-08-19,Aug,Fri,3,25193434,10916316,37,Dragon Ball Super: Super Hero
+2022-08-18,Aug,Thu,3,5941285,1258796,40,Bullet Train
+2022-08-17,Aug,Wed,3,6863429,1521490,39,Bullet Train
+2022-08-16,Aug,Tue,3,9042223,2206353,39,Bullet Train
+2022-08-15,Aug,Mon,3,6615467,1510422,37,Bullet Train
+2022-08-14,Aug,Sun,3,16362331,4078187,40,Bullet Train
+2022-08-13,Aug,Sat,3,22680785,5465276,40,Bullet Train
+2022-08-12,Aug,Fri,3,16538937,3861559,39,Bullet Train
+2022-08-11,Aug,Thu,3,8848023,2178183,29,Bullet Train
+2022-08-10,Aug,Wed,3,9366411,2331654,28,Bullet Train
+2022-08-09,Aug,Tue,3,13860453,3851738,29,Bullet Train
+2022-08-08,Aug,Mon,3,10557810,2690972,28,Bullet Train
+2022-08-07,Aug,Sun,3,25106877,7501874,30,Bullet Train
+2022-08-06,Aug,Sat,3,32597403,9685911,30,Bullet Train
+2022-08-05,Aug,Fri,3,30300233,12842371,30,Bullet Train
+2022-08-04,Aug,Thu,3,10449729,2240512,34,DC League of Super-Pets
+2022-08-03,Aug,Wed,3,11758442,2325164,33,DC League of Super-Pets
+2022-08-02,Aug,Tue,3,15720664,3681122,33,DC League of Super-Pets
+2022-08-01,Aug,Mon,3,13052581,2651643,33,DC League of Super-Pets
+2022-07-31,Jul,Sun,3,27557295,5946177,34,DC League of Super-Pets
+2022-07-30,Jul,Sat,3,35381454,7729632,33,DC League of Super-Pets
+2022-07-29,Jul,Fri,3,30918250,9327632,33,DC League of Super-Pets
+2022-07-28,Jul,Thu,3,13987843,3558685,29,Nope
+2022-07-27,Jul,Wed,3,15121049,3867360,30,Nope
+2022-07-26,Jul,Tue,3,20550724,5462490,31,Nope
+2022-07-25,Jul,Mon,3,16531086,4777980,31,Nope
+2022-07-24,Jul,Sun,3,36268100,10890065,31,Nope
+2022-07-23,Jul,Sat,3,45347634,13938155,31,Nope
+2022-07-22,Jul,Fri,3,42464701,19538690,31,Nope
+2022-07-21,Jul,Thu,3,15127935,3903317,32,Thor: Love and Thunder
+2022-07-20,Jul,Wed,3,16563867,4536230,31,Thor: Love and Thunder
+2022-07-19,Jul,Tue,3,22089075,6440182,32,Thor: Love and Thunder
+2022-07-18,Jul,Mon,3,18082350,5337661,32,Thor: Love and Thunder
+2022-07-17,Jul,Sun,3,39715575,14354321,35,Thor: Love and Thunder
+2022-07-16,Jul,Sat,3,49800143,18501978,33,Thor: Love and Thunder
+2022-07-15,Jul,Fri,3,41715439,13775873,33,Thor: Love and Thunder
+2022-07-14,Jul,Thu,3,19588238,8338839,31,Thor: Love and Thunder
+2022-07-13,Jul,Wed,3,21493985,8929256,32,Thor: Love and Thunder
+2022-07-12,Jul,Tue,3,29795505,13655428,28,Thor: Love and Thunder
+2022-07-11,Jul,Mon,3,24864583,12182506,28,Thor: Love and Thunder
+2022-07-10,Jul,Sun,3,60543877,32498540,28,Thor: Love and Thunder
+2022-07-09,Jul,Sat,3,78712815,42112494,30,Thor: Love and Thunder
+2022-07-08,Jul,Fri,3,98042012,69554073,28,Thor: Love and Thunder
+2022-07-07,Jul,Thu,3,19724152,10342345,29,Minions: The Rise of Gru
+2022-07-06,Jul,Wed,3,25418133,13568820,29,Minions: The Rise of Gru
+2022-07-05,Jul,Tue,3,31942154,17530175,27,Minions: The Rise of Gru
+2022-07-04,Jul,Mon,3,33475698,16077100,27,Minions: The Rise of Gru
+2022-07-03,Jul,Sun,3,53182771,26129245,31,Minions: The Rise of Gru
+2022-07-02,Jul,Sat,3,63129493,32646705,31,Minions: The Rise of Gru
+2022-07-01,Jul,Fri,3,72186724,48234190,30,Minions: The Rise of Gru
+2022-06-30,Jun,Thu,2,14882773,4006207,29,Top Gun: Maverick
+2022-06-29,Jun,Wed,2,16895896,4305954,29,Top Gun: Maverick
+2022-06-28,Jun,Tue,2,20774770,5267391,31,Elvis
+2022-06-27,Jun,Mon,2,18552084,4607973,30,Top Gun: Maverick
+2022-06-26,Jun,Sun,2,38544682,9245301,34,Top Gun: Maverick
+2022-06-25,Jun,Sat,2,49149679,12052751,33,Top Gun: Maverick
+2022-06-24,Jun,Fri,2,45644546,12755467,33,Elvis
+2022-06-23,Jun,Thu,2,14651396,5001644,35,Top Gun: Maverick
+2022-06-22,Jun,Wed,2,16386250,5476223,34,Top Gun: Maverick
+2022-06-21,Jun,Tue,2,20475104,7148530,35,Jurassic World: Dominion
+2022-06-20,Jun,Mon,2,24779196,8630480,35,Jurassic World: Dominion
+2022-06-19,Jun,Sun,2,55557705,21081560,35,Jurassic World: Dominion
+2022-06-18,Jun,Sat,2,57541266,22214665,36,Jurassic World: Dominion
+2022-06-17,Jun,Fri,2,50162669,20705945,36,Lightyear
+2022-06-16,Jun,Thu,2,16652622,8665580,33,Jurassic World: Dominion
+2022-06-15,Jun,Wed,2,18684499,9922365,34,Jurassic World: Dominion
+2022-06-14,Jun,Tue,2,25015269,14777680,34,Jurassic World: Dominion
+2022-06-13,Jun,Mon,2,21321489,12695440,34,Jurassic World: Dominion
+2022-06-12,Jun,Sun,2,61035426,38597110,37,Jurassic World: Dominion
+2022-06-11,Jun,Sat,2,73153596,46887000,37,Jurassic World: Dominion
+2022-06-10,Jun,Fri,2,78280742,59591515,36,Jurassic World: Dominion
+2022-06-09,Jun,Thu,2,12041669,9133204,35,Top Gun: Maverick
+2022-06-08,Jun,Wed,2,16014247,12402113,36,Top Gun: Maverick
+2022-06-07,Jun,Tue,2,18192757,13765401,34,Top Gun: Maverick
+2022-06-06,Jun,Mon,2,15921401,12402196,36,Top Gun: Maverick
+2022-06-05,Jun,Sun,2,37157335,29022049,39,Top Gun: Maverick
+2022-06-04,Jun,Sat,2,47434874,36008145,40,Top Gun: Maverick
+2022-06-03,Jun,Fri,2,33800699,25006817,39,Top Gun: Maverick
+2022-06-02,Jun,Thu,2,18962612,14466868,37,Top Gun: Maverick
+2022-06-01,Jun,Wed,2,19181216,14821417,32,Top Gun: Maverick
+2022-05-31,May,Tue,2,21425107,15800746,34,Top Gun: Maverick
+2022-05-30,May,Mon,2,45498178,33807521,35,Top Gun: Maverick
+2022-05-29,May,Sun,2,51298305,36677097,35,Top Gun: Maverick
+2022-05-28,May,Sat,2,55351885,38017701,36,Top Gun: Maverick
+2022-05-27,May,Fri,2,68026103,52012661,37,Top Gun: Maverick
+2022-05-26,May,Thu,2,5779228,2381639,37,Doctor Strange in the Multiverse of Madness
+2022-05-25,May,Wed,2,6756375,2787470,36,Doctor Strange in the Multiverse of Madness
+2022-05-24,May,Tue,2,7862473,3093792,34,Doctor Strange in the Multiverse of Madness
+2022-05-23,May,Mon,2,6960867,3326033,33,Doctor Strange in the Multiverse of Madness
+2022-05-22,May,Sun,2,20733195,9935047,36,Doctor Strange in the Multiverse of Madness
+2022-05-21,May,Sat,2,28321398,13801107,36,Doctor Strange in the Multiverse of Madness
+2022-05-20,May,Fri,2,22469484,8568406,36,Doctor Strange in the Multiverse of Madness
+2022-05-19,May,Thu,2,6140895,3858995,31,Doctor Strange in the Multiverse of Madness
+2022-05-18,May,Wed,2,6179906,3910188,30,Doctor Strange in the Multiverse of Madness
+2022-05-17,May,Tue,2,8180905,5283222,29,Doctor Strange in the Multiverse of Madness
+2022-05-16,May,Mon,2,6664036,4812753,28,Doctor Strange in the Multiverse of Madness
+2022-05-15,May,Sun,2,26087597,18169002,30,Doctor Strange in the Multiverse of Madness
+2022-05-14,May,Sat,2,38207954,26452876,30,Doctor Strange in the Multiverse of Madness
+2022-05-13,May,Fri,2,24753990,17133926,29,Doctor Strange in the Multiverse of Madness
+2022-05-12,May,Thu,2,10472372,8109267,28,Doctor Strange in the Multiverse of Madness
+2022-05-11,May,Wed,2,11640343,9102016,27,Doctor Strange in the Multiverse of Madness
+2022-05-10,May,Tue,2,15711682,12606682,26,Doctor Strange in the Multiverse of Madness
+2022-05-09,May,Mon,2,16115591,13620560,30,Doctor Strange in the Multiverse of Madness
+2022-05-08,May,Sun,2,49960008,38893364,31,Doctor Strange in the Multiverse of Madness
+2022-05-07,May,Sat,2,71316199,57806850,31,Doctor Strange in the Multiverse of Madness
+2022-05-06,May,Fri,2,99016794,90720784,29,Doctor Strange in the Multiverse of Madness
+2022-05-05,May,Thu,2,2948361,546895,29,The Bad Guys
+2022-05-04,May,Wed,2,4390657,707736,29,Everything Everywhere All at Once
+2022-05-03,May,Tue,2,6242944,1106660,29,The Bad Guys
+2022-05-02,May,Mon,2,4999796,894760,29,The Bad Guys
+2022-05-01,May,Sun,2,18367226,4945180,29,The Bad Guys
+2022-04-30,Apr,Sat,2,28066949,7558535,29,The Bad Guys
+2022-04-29,Apr,Fri,2,16517473,3733355,31,The Bad Guys
+2022-04-28,Apr,Thu,2,5657423,946505,28,The Bad Guys
+2022-04-27,Apr,Wed,2,5859176,945080,28,The Northman
+2022-04-26,Apr,Tue,2,8153299,1464450,28,The Bad Guys
+2022-04-25,Apr,Mon,2,6441487,1093350,28,The Northman
+2022-04-24,Apr,Sun,2,25079702,6616800,28,The Bad Guys
+2022-04-23,Apr,Sat,2,36056040,9347700,28,The Bad Guys
+2022-04-22,Apr,Fri,2,29082972,7985745,29,The Bad Guys
+2022-04-21,Apr,Thu,2,6788598,1924294,25,Fantastic Beasts: The Secrets of Dumbledore
+2022-04-20,Apr,Wed,2,7724531,2221092,25,Sonic the Hedgehog 2
+2022-04-19,Apr,Tue,2,10445246,3215723,26,Fantastic Beasts: The Secrets of Dumbledore
+2022-04-18,Apr,Mon,2,12441597,4512740,27,Sonic the Hedgehog 2
+2022-04-17,Apr,Sun,2,24290725,8313094,27,Fantastic Beasts: The Secrets of Dumbledore
+2022-04-16,Apr,Sat,2,39444024,13810828,27,Fantastic Beasts: The Secrets of Dumbledore
+2022-04-15,Apr,Fri,2,42163518,20027334,27,Fantastic Beasts: The Secrets of Dumbledore
+2022-04-14,Apr,Thu,2,9314512,4457632,30,Sonic the Hedgehog 2
+2022-04-13,Apr,Wed,2,8952406,3662607,31,Sonic the Hedgehog 2
+2022-04-12,Apr,Tue,2,9741733,5049159,29,Sonic the Hedgehog 2
+2022-04-11,Apr,Mon,2,8379316,4337814,29,Sonic the Hedgehog 2
+2022-04-10,Apr,Sun,2,30824232,18825695,31,Sonic the Hedgehog 2
+2022-04-09,Apr,Sat,2,46033970,26898385,30,Sonic the Hedgehog 2
+2022-04-08,Apr,Fri,2,40318001,26381096,30,Sonic the Hedgehog 2
+2022-04-07,Apr,Thu,2,4346641,1373785,34,Morbius
+2022-04-06,Apr,Wed,2,4863221,1664589,33,Morbius
+2022-04-05,Apr,Tue,2,6792887,2706560,34,Morbius
+2022-04-04,Apr,Mon,2,5070501,2126392,33,Morbius
+2022-04-03,Apr,Sun,2,19115295,8551474,35,Morbius
+2022-04-02,Apr,Sat,2,29611598,13148513,35,Morbius
+2022-04-01,Apr,Fri,2,28157844,17305908,34,Morbius
+2022-03-31,Mar,Thu,1,4834830,1839093,35,The Lost City
+2022-03-30,Mar,Wed,1,5241702,2008391,35,The Lost City
+2022-03-29,Mar,Tue,1,7256373,3274852,35,The Lost City
+2022-03-28,Mar,Mon,1,5742676,2204967,35,The Lost City
+2022-03-27,Mar,Sun,1,19523313,7119473,37,The Lost City
+2022-03-26,Mar,Sat,1,31442235,11802252,37,The Lost City
+2022-03-25,Mar,Fri,1,27513981,11531544,37,The Lost City
+2022-03-24,Mar,Thu,1,5574271,2461077,33,The Batman
+2022-03-23,Mar,Wed,1,6404018,2812134,33,The Batman
+2022-03-22,Mar,Tue,1,7829206,3314926,33,The Batman
+2022-03-21,Mar,Mon,1,6880922,2849108,32,The Batman
+2022-03-20,Mar,Sun,1,20263601,10002111,35,The Batman
+2022-03-19,Mar,Sat,1,32445594,16004510,35,The Batman
+2022-03-18,Mar,Fri,1,27351801,10716576,35,The Batman
+2022-03-17,Mar,Thu,1,7795912,5033039,31,The Batman
+2022-03-16,Mar,Wed,1,8838978,5753208,31,The Batman
+2022-03-15,Mar,Tue,1,10921145,7104268,31,The Batman
+2022-03-14,Mar,Mon,1,9200965,6368310,31,The Batman
+2022-03-13,Mar,Sun,1,27070763,19758882,33,The Batman
+2022-03-12,Mar,Sat,1,46259664,28137360,34,The Batman
+2022-03-11,Mar,Fri,1,26220202,18614979,33,The Batman
+2022-03-10,Mar,Thu,1,11171139,8444372,30,The Batman
+2022-03-09,Mar,Wed,1,10981710,8471060,30,The Batman
+2022-03-08,Mar,Tue,1,14001933,10772573,30,The Batman
+2022-03-07,Mar,Mon,1,13289529,10824197,30,The Batman
+2022-03-06,Mar,Sun,1,42802456,34138236,33,The Batman
+2022-03-05,Mar,Sat,1,56299314,43262039,34,The Batman
+2022-03-04,Mar,Fri,1,64316203,56608349,34,The Batman
+2022-03-03,Mar,Thu,1,3130588,1082091,35,Uncharted
+2022-03-02,Mar,Wed,1,3820795,1355360,35,Uncharted
+2022-03-01,Mar,Tue,1,5825039,2220497,35,Uncharted
+2022-02-28,Feb,Mon,1,3948664,1481185,35,Uncharted
+2022-02-27,Feb,Sun,1,15218278,6317243,38,Uncharted
+2022-02-26,Feb,Sat,1,25515465,10745059,38,Uncharted
+2022-02-25,Feb,Fri,1,14354086,5939471,38,Uncharted
+2022-02-24,Feb,Thu,1,5631663,2302182,38,Uncharted
+2022-02-23,Feb,Wed,1,5763003,2355628,38,Uncharted
+2022-02-22,Feb,Tue,1,9142006,4161837,37,Uncharted
+2022-02-21,Feb,Mon,1,16010452,7305676,39,Uncharted
+2022-02-20,Feb,Sun,1,26405359,12357954,40,Uncharted
+2022-02-19,Feb,Sat,1,35069925,16275559,40,Uncharted
+2022-02-18,Feb,Fri,1,28683780,15376642,40,Uncharted
+2022-02-17,Feb,Thu,1,3425572,723943,35,Death on the Nile
+2022-02-16,Feb,Wed,1,4117874,970743,36,Death on the Nile
+2022-02-15,Feb,Tue,1,5722188,1518370,36,Death on the Nile
+2022-02-14,Feb,Mon,1,12358799,3039525,36,Marry Me
+2022-02-13,Feb,Sun,1,9245185,2045897,36,Death on the Nile
+2022-02-12,Feb,Sat,1,24333053,5775755,36,Death on the Nile
+2022-02-11,Feb,Fri,1,16839859,5069471,37,Death on the Nile
+2022-02-10,Feb,Thu,1,3258029,1298424,34,Jackass Forever
+2022-02-09,Feb,Wed,1,3579945,1403803,35,Jackass Forever
+2022-02-08,Feb,Tue,1,4729864,1788315,33,Jackass Forever
+2022-02-07,Feb,Mon,1,3951781,1724772,33,Jackass Forever
+2022-02-06,Feb,Sun,1,14123416,5148583,33,Jackass Forever
+2022-02-05,Feb,Sat,1,23583970,8393074,33,Jackass Forever
+2022-02-04,Feb,Fri,1,18196078,9612731,33,Jackass Forever
+2022-02-03,Feb,Thu,1,1958078,710561,27,Spider-Man: No Way Home
+2022-02-02,Feb,Wed,1,2218080,795807,26,Spider-Man: No Way Home
+2022-02-01,Feb,Tue,1,3006354,1044982,26,Spider-Man: No Way Home
+2022-01-31,Jan,Mon,1,2509619,910449,26,Spider-Man: No Way Home
+2022-01-30,Jan,Sun,1,7850130,2855474,28,Spider-Man: No Way Home
+2022-01-29,Jan,Sat,1,15072356,5397060,27,Spider-Man: No Way Home
+2022-01-28,Jan,Fri,1,8127686,2750994,27,Spider-Man: No Way Home
+2022-01-27,Jan,Thu,1,3105148,960270,28,Spider-Man: No Way Home
+2022-01-26,Jan,Wed,1,2999432,938951,29,Spider-Man: No Way Home
+2022-01-25,Jan,Tue,1,3803445,1121804,27,Spider-Man: No Way Home
+2022-01-24,Jan,Mon,1,3015763,973653,27,Spider-Man: No Way Home
+2022-01-23,Jan,Sun,1,11186399,3995155,28,Spider-Man: No Way Home
+2022-01-22,Jan,Sat,1,19057819,6518119,28,Spider-Man: No Way Home
+2022-01-21,Jan,Fri,1,11971522,3701908,28,Scream
+2022-01-20,Jan,Thu,1,4136041,1475633,23,Scream
+2022-01-19,Jan,Wed,1,4238977,1554567,23,Scream
+2022-01-18,Jan,Tue,1,5518747,2062118,23,Scream
+2022-01-17,Jan,Mon,1,12918405,4555918,27,Spider-Man: No Way Home
+2022-01-16,Jan,Sun,1,18091004,6460324,25,Scream
+2022-01-15,Jan,Sat,1,26643760,10174839,25,Scream
+2022-01-14,Jan,Fri,1,23615870,13383642,25,Scream
+2022-01-13,Jan,Thu,1,4036084,2110817,24,Spider-Man: No Way Home
+2022-01-12,Jan,Wed,1,4267099,2242906,24,Spider-Man: No Way Home
+2022-01-11,Jan,Tue,1,5523488,2787987,24,Spider-Man: No Way Home
+2022-01-10,Jan,Mon,1,4307531,2426248,24,Spider-Man: No Way Home
+2022-01-09,Jan,Sun,1,17001522,9485183,25,Spider-Man: No Way Home
+2022-01-08,Jan,Sat,1,27445445,14828927,25,Spider-Man: No Way Home
+2022-01-07,Jan,Fri,1,15938444,8303811,25,Spider-Man: No Way Home
+2022-01-06,Jan,Thu,1,6652705,3926778,21,Spider-Man: No Way Home
+2022-01-05,Jan,Wed,1,7391727,4383219,21,Spider-Man: No Way Home
+2022-01-04,Jan,Tue,1,10399690,5918802,23,Spider-Man: No Way Home
+2022-01-03,Jan,Mon,1,13351805,7908732,21,Spider-Man: No Way Home
+2022-01-02,Jan,Sun,1,29043656,17502959,25,Spider-Man: No Way Home
+2022-01-01,Jan,Sat,1,39077865,23112936,26,Spider-Man: No Way Home
