@@ -166,7 +166,7 @@ class: bottom, right
 
 - A list of text sections can be found **[here](https://docs.Google.com/spreadsheets/d/1yhUSJAJQ4VVjVBpiv3_C2D3tQs2SmJjynSq9chqXOwc/edit?usp=sharing)** and will be updated as the course progresses.
 
-### Quiz 1 on Thursday 2/17
+### Quiz 1 on Thursday 2/16
 
 - Weeks 1 - 4 (Lectures 1 - 8)
   
@@ -396,8 +396,8 @@ Hint: To answer this question, you are encouraged to
 
 - Students will have 70 minutes
 
-- Students with an accommodation we will schedule an alternative.
-  - Tentative alternative: Friday 2/17 at 3:00 PM  
+- Students with an accommodation: we will schedule an alternative.
+  - **Tentative alternative: Friday 2/17 at 3:00 PM (Room 009)** 
 
 - All students must work alone.
 
@@ -427,7 +427,7 @@ Hint: To answer this question, you are encouraged to
 
 - TAs and I will complete grading together.
 
-- For each question, R code (65%) and Blackboard answers (45%) will count towards final grade.
+- For each question, R code (65%) and Blackboard answers (35%) will count towards final grade.
 
 - Quiz 1 is worth 22.5% of your final grade in this course.
 
