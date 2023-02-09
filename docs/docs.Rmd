@@ -394,36 +394,34 @@ Hint: To answer this question, you are encouraged to
 
 ### Format of Quiz 1
 
-- Students will have 70 minutes
+- **Students will have 70 minutes**
 
-- Students with an accommodation: we will schedule an alternative.
-  - **Tentative alternative: Friday 2/17 at 3:00 PM (Room 009)** 
+- **Students with an accommodation: we will schedule an alternative.**
+  - Tentative alternative: Friday 2/17 at 3:00 PM (Room 009) 
 
-- All students must work alone.
+- **All students must work alone.**
 
-- Quiz intended to be long and many students may not finish.
+- **Quiz intended to be long and many students may not finish.**
   
   - All questions are equally weighted and independent.
-  
   - Do the best you can.
-  
-- There will be approximately 6-7 multipart questions on Blackboard.
-
+  - There will be approximately 8-9 multi-part questions on Blackboard.
   - Each question will have multiple versions.
+  - The questions will include instructions and may include some partial R code.
   
-  - The questions will include instructions and may include some partial R code
-  
-  - For each question you will:
-  
-        - copy and paste provided R code into provided Quiz 1 template in provided Quiz 1 R project
-        - Complete the R code in the Quiz 1 template
-        - Answer the question on Blackboard
+- **For each question you will:**
+ 
+  - Copy and paste provided R code into provided Quiz 1 template in provided Quiz 1 R project.
+  - Complete the R code in the Quiz 1 template and save your work.
+  - Answer the question on Blackboard.
   
 ---
 
 ### Grading of Quiz 1 
 
-- Because there are 60 students, grading will take a little time.
+- Grading will take a little time because each student's code needs to be examined.
+
+  - Reminder: You can use different code than what is taught and will receive full credit if the result is correct.
 
 - TAs and I will complete grading together.
 
