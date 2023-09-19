@@ -4,7 +4,7 @@
     <title>BUA 455 - Week 4</title>
     <meta charset="utf-8" />
     <meta name="author" content="Penelope Pooler Eisenbies" />
-    <meta name="date" content="2023-02-09" />
+    <meta name="date" content="2023-09-19" />
     <script src="docs_files/header-attrs/header-attrs.js"></script>
     <link href="docs_files/panelset/panelset.css" rel="stylesheet" />
     <script src="docs_files/panelset/panelset.js"></script>
@@ -49,7 +49,7 @@ class: bottom, right
 
 #### Penelope Pooler Eisenbies
 
-#### "2023-02-09"
+#### 2023-09-19
 
 [Wikipedia Sloth Page](https://en.wikipedia.org/wiki/Sloth)
 
@@ -57,31 +57,30 @@ class: bottom, right
 
 ### Reminders:
 
-#### HW 3 Due 2/8
+#### HW 3 Due 9/20
 
 **There is a 2 day grace period on this assignment.**
 
-#### Textbook
+### No Class on Tuesday 9/26
 
-- A list of text sections can be found **[here](https://docs.Google.com/spreadsheets/d/1yhUSJAJQ4VVjVBpiv3_C2D3tQs2SmJjynSq9chqXOwc/edit?usp=sharing)** and will be updated as the course progresses.
+- Practice Questions from Spring of 2023 are Posted.
 
-### Quiz 1 on Thursday 2/16
+- I will talk more about the test on Thursday
+
+- On Tuesday, I will hold an optional Q&amp;A Zoom at 7:00 PM
+
+  - Come with questions because I will not prepare material.
+
+
+### Quiz 1 on Thursday 9/28
 
 - Weeks 1 - 4 (Lectures 1 - 8)
   
-  - There will be a little new material this week, but we will mostly be discussing
-  
-     - a review of the skills covered so far
-  
-     - different ways to combine these skills
-     
-     - how to know what to do for a given data management situation
-     
 - HW 1 - 3
 
 ---
 
-### Side Trip for a Great Question
+### Side Trip about piping
 
 ###   **`%&gt;%`**     vs.     **`|&gt;`**
 
@@ -91,7 +90,7 @@ class: bottom, right
 
 - `%&gt;%` requires `magrittr` package but `|&gt;` doesn't 
 
-   - I load it anyways as a precaution in case I need other pipe functions
+   - I load this package anyways as a precaution in case I need other pipe functions
    
 - `|&gt;` may give you an error if are working on a machine with an old version of R or RStudio
 
@@ -161,9 +160,9 @@ mojo_22_fall_wknd &lt;- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types
 
 **NOTES:** 
 
-- This counts as part of your **in-class participation** for Lecture 6 and is due by Wednesday, 2/8 at midnight.
+- This counts as part of your **in-class participation** for Lecture 6 and is due by Wednesday, 9/19 at midnight.
 
-- No late work is accepted for in-class exercises but this does not count towards your HW grade.
+- No late work is accepted for in-class exercises but this does **not** count towards your HW grade.
 
 - We will do more in-class exercises throughout the semester.
 
@@ -292,7 +291,8 @@ Hint: To answer this question, you are encouraged to
 - **Students will have 70 minutes**
 
 - **Students with an accommodation: we will schedule an alternative.**
-  - Tentative alternative: Friday 2/17 at 3:00 PM (Room 009) 
+
+   - Tentative Time: Friday 9/29 at 1:00 PM in Room 009
 
 - **All students must work alone.**
 
@@ -314,13 +314,19 @@ Hint: To answer this question, you are encouraged to
 
 ### Grading of Quiz 1 
 
-- Grading will take a little time because each student's code needs to be examined.
+- Grading will take a little time. In addition to your Blackboard answers you are required to submit
 
-  - Reminder: You can use different code than what is taught and will receive full credit if the result is correct.
+  - your R Markdown (.Rmd) file
+  - your .Rhistory file
+  
+- I can not give you full credit if you do not show your work in an R Markdown file.
+  
+- Reminder: You can use different code than what is taught and will receive full credit if the result is correct.
 
-- TAs and I will complete grading together.
 
-- For each question, R code (65%) and Blackboard answers (35%) will count towards final grade.
+- For each question, the grade will be tallied as follows:
+  - R code (.qmd and Rhistory file 10%) - quick check
+  - Blackboard answers (90$) 
 
 - Quiz 1 is worth 22.5% of your final grade in this course.
 
@@ -329,7 +335,7 @@ Hint: To answer this question, you are encouraged to
 
 - There are a set of 14 practice questions posted on Blackboard.
 
-- Your Quiz 1 questions will be similar to these and will use these same datasets or similar ones.
+- Quiz 1 questions will be similar to these and will use these same datasets or similar ones.
 
 - If other data are used:
   - I will post an announcement, so you can examine the data and documentation before the quiz.
@@ -344,7 +350,7 @@ Hint: To answer this question, you are encouraged to
   - Take notes on what is not clear for you.
   - I will answer questions on Thursday.
 
-- I will post video solution for Practice Questions on Thursday
+- I will post a video playlist of solutions for Practice Questions on Thursday
 
 ### Before Quiz 1:
 
@@ -425,7 +431,7 @@ Click on dataset name in Global Environment.
 
 
 #### Week 4 In-class Exercises (L7 - Q3-Q4)
-***Point Solutions Session ID: bua455s23***
+***Point Solutions Session ID: bua455f23***
 
 **`Q3.`** The `mtcars` dataset is saved as `my_mtcars` in the Global Environment.
 
@@ -528,7 +534,7 @@ Click on this new filtered dataset in the Global Environment to answer this ques
 
 .pull-left[
 
-- I will post a video for each Practice Question
+- I will post a video playlist covering each question 
 
 - You should 
 
@@ -540,8 +546,8 @@ Click on this new filtered dataset in the Global Environment to answer this ques
     
     - Clarifications requested will make Quiz 1 more clear.
     
-    - Practice Questions have typos. 
-      - **Please let me know.**
+    - **Please let me know if Practice Questions have typos.** 
+
     
 ### Time for Questions
 
@@ -644,7 +650,7 @@ my_mtcars2 &lt;- my_mtcars2 |&gt;
 
 .panel[.panel-name[**Questions**]
 
-***Point Solutions Session ID: bua455s23***
+***Point Solutions Session ID: bua455f23***
 #### Week 4 In-class Exercises (L8 - Q1-Q3)
 
 **`Q1`** How many categories are in the cyl (cylinder) variable in the dataset you created?
