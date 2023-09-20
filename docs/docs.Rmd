@@ -275,13 +275,16 @@ mojo_22_fall_wknd <- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types=F)
 ```{r  Week 4 In-class Exercise}
 
 
+mojo_22_fall_wknd_wide <- mojo_22_fall_wknd |>
+  mutate(max_top10g = (max_top10g/1000000) |> round(4)) |>                # convert to millions
+  pivot_wider(id_cols=Month, names_from = Day, values_from = max_top10g)  # reshape data
 
-mojo_22_fall_wknd_wide <- mojo_22_fall_wknd
+mojo_22_fall_wknd_wide[,2:4] <- round(mojo_22_fall_wknd_wide[,2:4],2)       # round cols 2-4
 
+mojo_22_fall_wknd_wide |> write_csv("Week_4_In_Class_First_Name_Last_Name.csv") # export as .csv 
 
+mojo_22_fall_wknd_wide |> kable()       # create kable table
 
-
-#write_csv()
 
 ```
 

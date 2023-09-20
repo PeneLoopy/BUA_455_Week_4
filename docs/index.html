@@ -4,7 +4,7 @@
     <title>BUA 455 - Week 4</title>
     <meta charset="utf-8" />
     <meta name="author" content="Penelope Pooler Eisenbies" />
-    <meta name="date" content="2023-09-19" />
+    <meta name="date" content="2023-09-20" />
     <script src="docs_files/header-attrs/header-attrs.js"></script>
     <link href="docs_files/panelset/panelset.css" rel="stylesheet" />
     <script src="docs_files/panelset/panelset.js"></script>
@@ -49,7 +49,7 @@ class: bottom, right
 
 #### Penelope Pooler Eisenbies
 
-#### 2023-09-19
+#### 2023-09-20
 
 [Wikipedia Sloth Page](https://en.wikipedia.org/wiki/Sloth)
 
@@ -172,13 +172,25 @@ mojo_22_fall_wknd &lt;- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types
 
 
 ```r
-mojo_22_fall_wknd_wide &lt;- mojo_22_fall_wknd
+mojo_22_fall_wknd_wide &lt;- mojo_22_fall_wknd |&gt;
+  mutate(max_top10g = (max_top10g/1000000) |&gt; round(4)) |&gt;                # convert to millions
+  pivot_wider(id_cols=Month, names_from = Day, values_from = max_top10g)  # reshape data
 
+mojo_22_fall_wknd_wide[,2:4] &lt;- round(mojo_22_fall_wknd_wide[,2:4],2)       # round cols 2-4
 
+mojo_22_fall_wknd_wide |&gt; write_csv("Week_4_In_Class_First_Name_Last_Name.csv") # export as .csv 
 
-
-#write_csv()
+mojo_22_fall_wknd_wide |&gt; kable()       # create kable table
 ```
+
+
+
+|Month |     F|    Sa|    Su|
+|:-----|-----:|-----:|-----:|
+|Sep   | 20.16| 21.28| 14.77|
+|Oct   | 41.17| 41.35| 27.68|
+|Nov   | 93.16| 66.61| 47.11|
+|Dec   | 57.87| 51.42| 43.49|
 
 
 
