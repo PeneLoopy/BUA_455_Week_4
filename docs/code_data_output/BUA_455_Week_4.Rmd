@@ -36,11 +36,9 @@ p_loaded()
 
 ### Reminders:
 
-#### HW 3 Due 9/20
+#### HW 3 Due 2/7
 
 **There is a 2 day grace period on this assignment.**
-
-### No Class on Tuesday 9/26
 
 - Practice Questions from Spring of 2023 are Posted.
 
@@ -51,7 +49,7 @@ p_loaded()
   - Come with questions because I will not prepare material.
 
 
-### Quiz 1 on Thursday 9/28
+### Quiz 1 on Thursday 2/15
 
 - Weeks 1 - 4 (Lectures 1 - 8)
   
@@ -80,27 +78,7 @@ p_loaded()
 
 ---
 
-### Week 4 In-class Exercises (L7 - Q1) - NOT ON PointSolutions
-
-**Practice:**
-
-- Running chunks and exporting a table.
-
-- **Preview for one question in Quiz 1 where you will:** 
-  - Select variables from a provided dataset
-  - Group and summarize data
-  - Export a summary table as a .csv file and submit it.
-
-**Instructions:** 
-
-1. Save Week 4 R project to your computer 
-2. Open this project by clicking on .Rproj file
-3. Open .Rmd file within open R project.
-4. Run chunk after these instructions to import, modify, summarize, and filter data (review)
-
----
-
-### Import and Data Preparation 
+### Reminder of In-class Exercise from Week 3
 
 ```{r import and prep bom2022}
 
@@ -123,37 +101,26 @@ mojo_22_fall_wknd <- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types=F)
 
 ---
 
-### What we will do with **`mojo_22_fall_wknd`**
+### Completed code from Week 3 Exercise
 
-**`5.`** In the second chunk after these instructions, modify code to:
+Alternative to option below:
 
-   i. Use `mutate` to convert values to millions (divide by 1000000) and round to 4 decimal places.
+- Round data as desired in mutate statement before reshaping data with `pivot_wider`.
 
-   ii. Use `pivot_wider` to reshape data to Wide format with one column for month and one column for each day of week.
+```{r  completed code from Week 3}
 
-   iii. Round reshaped data to two decimal places (demo of how to multiple columns at once).
 
-   iv. Export reshaped data with rounded values (2 decimal places) to a .csv file to be submitted.
+mojo_22_fall_wknd_wide <- mojo_22_fall_wknd |>
+  mutate(max_top10g = (max_top10g/1000000) |> round(4)) |>                # convert to millions
+  pivot_wider(id_cols=Month, names_from = Day, values_from = max_top10g)  # reshape data
 
-   v. Write a separate statement to pipe this table to a `kable()` command to practice that skill.
-   
-<br>
-**`6.`** Submit the .csv file with your name in the **Week 4 In-class Exercise** in the **LECTURES** section on Blackboard
+mojo_22_fall_wknd_wide[,2:4] <- round(mojo_22_fall_wknd_wide[,2:4],1)     # round cols 2-4 to one decimal
 
-**NOTES:** 
+# mojo_22_fall_wknd_wide[,2:4] <- round(mojo_22_fall_wknd_wide[,2:4])     # round cols 2-4 to whole numbers
 
-- This counts as part of your **in-class participation** for Lecture 6 and is due by Wednesday, 9/19 at midnight.
+mojo_22_fall_wknd_wide |> write_csv("Week_4_In_Class_First_Name_Last_Name.csv") # export as .csv 
 
-- No late work is accepted for in-class exercises but this does **not** count towards your HW grade.
-
-- We will do more in-class exercises throughout the semester.
-
----
-
-### In-class Excerise Code will be done together
-
-```{r  Week 4 In-class Exercise}
-
+mojo_22_fall_wknd_wide |> kable()       # create kable table (was not required in Week 3)
 
 
 ```
@@ -244,7 +211,7 @@ Hint: To answer this question, you are encouraged to
        - Week 3 included a preview demo of `as.numeric`
        
 
-- `dplyer` commands 
+- `dplyr` commands 
 
    - `group_by` and `filter`
    - `group_by` and `summarize`
@@ -270,7 +237,7 @@ Hint: To answer this question, you are encouraged to
 
 - **Students with an accommodation: we will schedule an alternative.**
 
-   - Tentative Time: Friday 9/29 at 1:00 PM in Room 009
+   - Tentative Time: Friday 2/16 at 2:00 PM
 
 <br>
 
@@ -280,7 +247,7 @@ Hint: To answer this question, you are encouraged to
   
   - All questions are equally weighted and independent.
   - Do the best you can.
-  - There will be approximately 8-9 multi-part questions on Blackboard.
+  - There will be approximately 7-9 multi-part questions on Blackboard.
   - Each question will have multiple versions.
   - The questions will include instructions and may include some partial R code.
   
@@ -299,8 +266,8 @@ Hint: To answer this question, you are encouraged to
 
 - Grading will take a little time. In addition to your Blackboard answers you are required to submit
 
-  - your R Markdown (.Rmd) file
-  - your .Rhistory file
+  - **your R Markdown (.Rmd) file**
+  - **YOU DO NOT HAVE TO SUBMIT A ZIPPED PROJECT.**
   
 - I can not give you full credit if you do not show your work in an R Markdown file.
   
@@ -309,7 +276,7 @@ Hint: To answer this question, you are encouraged to
 
 - For each question, the grade will be tallied as follows:
   - R code (.qmd and Rhistory file 10%) - quick check
-  - Blackboard answers (90$) 
+  - Blackboard answers (90%) 
 
 - Quiz 1 is worth 22.5% of your final grade in this course.
 
@@ -333,7 +300,7 @@ Hint: To answer this question, you are encouraged to
   - Take notes on what is not clear for you.
   - I will answer questions on Thursday.
 
-- I will post a video playlist of solutions for Practice Questions on Thursday
+- I will post a video playlist of solutions for Practice Questions before the next lecture.
 
 ### Before Quiz 1:
 
@@ -388,7 +355,7 @@ Click on dataset name in Global Environment.
 
 
 #### Week 4 In-class Exercises (L7 - Q3-Q4)
-***Point Solutions Session ID: bua455f23***
+***Point Solutions Session ID: bua455s24***
 
 **`Q3.`** The `mtcars` dataset is saved as `my_mtcars` in the Global Environment.
 
@@ -552,7 +519,7 @@ my_mtcars2 <- my_mtcars[6:25, c(1,2,6)] |>
 ---
 
 
-***Point Solutions Session ID: bua455f23***
+***Point Solutions Session ID: bua455s24***
 #### Week 4 In-class Exercises (L8 - Q1-Q3)
 
 **`Q1`** How many categories are in the cyl (cylinder) variable in the dataset you created?

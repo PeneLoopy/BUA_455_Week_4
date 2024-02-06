@@ -1,140 +1,39 @@
----
-title: "BUA 455 - Week 4"
-
-subtitle: "Combining Skills and Quiz Review"  
-author: "Penelope Pooler Eisenbies"
-date: "`r Sys.Date()`"
-output:
-  xaringan::moon_reader:
-    seal: false
-    css: xaringan-themer.css
-    nature:
-      slideNumberFormat: "%current%/%total%" 
-      highlightStyle: tomorrow-night-bright
-      highlightLines: true
-      ratio: 16:9
-      countIncrementalSlides: true
-      keep_md: true
----
-
-```{r setup, include=FALSE, echo=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(
-  fig.retina=2,
-  #out.width = "75%",
-  #out.height = "50%",
-  htmltools.preserve.raw = FALSE,      # needed for windows
-  scipen=100,                          # suppresses scientific notation
-  getSymbols.warning4.0 = FALSE,       # suppresses getSymbols warnings
-  cache = FALSE,
-  echo = TRUE,
-  hiline = TRUE,
-  message = FALSE, 
-  warning = FALSE
-)
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>BUA 455 - Week 4</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Penelope Pooler Eisenbies" />
+    <meta name="date" content="2024-02-04" />
+    <script src="docs_files/header-attrs/header-attrs.js"></script>
+    <link href="docs_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="docs_files/panelset/panelset.js"></script>
+    <link href="docs_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="docs_files/tile-view/tile-view.js"></script>
+    <script src="docs_files/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <link href="docs_files/tachyons/tachyons.min.css" rel="stylesheet" />
+    <link href="docs_files/animate.css/animate.xaringan.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
 
-# install helper package (pacman)
-# pacman loads and installs other packages, if needed
-if (!require("pacman")) install.packages("pacman", repos = "http://lib.stat.cmu.edu/R/CRAN/")
-
-# install and load required packages
-# pacman should be first package in parentheses and then list others
-pacman::p_load(pacman, tidyverse, magrittr, gridExtra, knitr)
-
-# verify packages (comment out in finished documents)
-p_loaded()
 
 
-```
-
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-
-palette <- c(
-  SU_Orange1        = "#F76900",
-  SU_Orange2        = "#FF8E00",
-  SU_Red_Orange     = "#FF431B",
-  SU_Blue1          = "#000E54",
-  SU_Blue2          = "#203299",
-  SU_Light_Blue     = "#2B72D7",
-  SU_White          = "#FFFFFF",
-  SU_Light_Gray     = "#ADB3B8",
-  SU_Medium_Gray    = "#707780",
-  SU_Black          = "#000000", 
-  
-  steel_blue        = "#4682B4",
-  corn_flower_blue  = "#6495ED",
-  deep_sky_blue     = "#00BFFF",
-  dark_magenta      = "#8B008B",
-  medium_orchid     = "#BA55D3",
-  lime_green        = "#32CD32",
-  light_sea_green   = "#20B2AA",
-  chartreuse        = "#7FFF00",
-  orange_red        = "#FF4500",
-  white_smoke       = "#F5F5F5",
-  dark_cyan         = "#008B8B",
-  light_steel_blue  = "#B0C4DE",
-  indigo            = "#4B0082",
-  ivory             = "#FFFFF0",
-  light_slate_grey  = "#778899",
-  linen             = "#FAF0E6",
-  steel_blue        = "#4682B4",
-  blue_violet       = "#8A2BE2",
-  dodger_blue       = "#1E90FF",
-  light_blue        = "#ADD8E6",
-  azure             = "#F0FFFF",
-  lavender          = "#E6E6FA")
-
-primary_color = "#4682B4"                # steel_blue
-secondary_color = "#778899"              # light_slate_grey
-white_color = "#FFFFF0"                  # ivory
-black_color = "#000080"                  # navy
-
-style_duo_accent(
-  primary_color = primary_color,
-  secondary_color = secondary_color,
-  white_color = white_color,
-  black_color = black_color,
-  text_color = black_color,
-  header_color = primary_color,
-  background_color = white_color,
-  code_inline_background_color = "#E6E6FA", # lavender
-  link_color = "#1E90FF",                   # dodger_blue
-  code_inline_color = "#4B0082",            # indigo
-  text_bold_color = "#8B008B",              # dark_magenta
-  header_font_google = google_font("Open Sans"),
-  text_font_google = google_font("Open Sans"),
-  code_font_google = google_font("Source Code Pro"),
-  colors = palette
-)
 
 
-```
 
-```{r xaringan-panelset, echo=FALSE}
-xaringanExtra::use_panelset()
-```
 
-```{r xaringan-tile-view, echo=FALSE}
-xaringanExtra::use_tile_view()
-```
 
-```{r xaringan-fit-screen, echo=FALSE}
-xaringanExtra::use_fit_screen()
-```
 
-```{r xaringan-tachyons, echo=FALSE}
-xaringanExtra::use_tachyons()
-```
 
-```{r xaringan-animate-css, echo=FALSE}
-xaringanExtra::use_animate_css()
-```
 
-```{r xaringan-animate-all, echo=FALSE}
-#xaringanExtra::use_animate_all("slide_up")
-```
+
+
+
+
+
 
 background-image: url("docs_files/images/sloth_faded.png")
 background-size: cover
@@ -145,12 +44,12 @@ class: bottom, right
 
 ### Combining Skills and Quiz Review
 
-<br>
+&lt;br&gt;
 
 
 #### Penelope Pooler Eisenbies
 
-#### `r Sys.Date()`
+#### 2024-02-04
 
 [Wikipedia Sloth Page](https://en.wikipedia.org/wiki/Sloth)
 
@@ -166,7 +65,7 @@ class: bottom, right
 
 - I will talk more about the test on Thursday
 
-- On Tuesday, I will hold an optional Q&A Zoom at 7:00 PM
+- On Tuesday, I will hold an optional Q&amp;A Zoom at 7:00 PM
 
   - Come with questions because I will not prepare material.
 
@@ -181,19 +80,19 @@ class: bottom, right
 
 ### Side Trip about piping
 
-###   **`%>%`**     vs.     **`|>`**
+###   **`%&gt;%`**     vs.     **`|&gt;`**
 
 - What's the difference?
 
-- For your purposes they are interchangeable, but |> is newer 
+- For your purposes they are interchangeable, but |&gt; is newer 
 
-- `%>%` requires `magrittr` package but `|>` doesn't 
+- `%&gt;%` requires `magrittr` package but `|&gt;` doesn't 
 
    - I load this package anyways as a precaution in case I need other pipe functions
    
-- `|>` may give you an error if are working on a machine with an old version of R or RStudio
+- `|&gt;` may give you an error if are working on a machine with an old version of R or RStudio
 
-- `|>` is slightly more efficient because of what the computer is doing is slightly different
+- `|&gt;` is slightly more efficient because of what the computer is doing is slightly different
 
 - [More information for those who are interested (not required)](https://www.r-bloggers.com/2021/05/the-new-r-pipe/)
 
@@ -202,21 +101,20 @@ class: bottom, right
 
 ### Reminder of In-class Exercise from Week 3
 
-```{r import and prep bom2022}
 
-mojo_22_fall_wknd <- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types=F) |>   # import data
+```r
+mojo_22_fall_wknd &lt;- read_csv("Box_Office_Mojo_Week3_HW3.csv", show_col_types=F) |&gt;   # import data
   mutate(Month = factor(month,                                                        # create factors
                          levels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
                                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")),
          Day = factor(day,     
                       levels=c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
-                      labels= c("M", "T", "W", "Th", "F", "Sa", "Su"))) |>
-  select(Month, Day, top10gross) |>                                                  # select variables
-  group_by(Month, Day) |>                                                            # group by category
-  summarize(max_top10g = max(top10gross, na.rm=T)) |>                                # summarize
-  ungroup() |>                                                                       # ungroup
-  filter(Day %in% c("F", "Sa", "Su") & Month %in% c("Sep", "Oct", "Nov", "Dec"))     # filter fall wknds
-
+                      labels= c("M", "T", "W", "Th", "F", "Sa", "Su"))) |&gt;
+  select(Month, Day, top10gross) |&gt;                                                  # select variables
+  group_by(Month, Day) |&gt;                                                            # group by category
+  summarize(max_top10g = max(top10gross, na.rm=T)) |&gt;                                # summarize
+  ungroup() |&gt;                                                                       # ungroup
+  filter(Day %in% c("F", "Sa", "Su") &amp; Month %in% c("Sep", "Oct", "Nov", "Dec"))     # filter fall wknds
 ```
 
 ---
@@ -227,23 +125,29 @@ Alternative to option below:
 
 - Round data as desired in mutate statement before reshaping data with `pivot_wider`.
 
-```{r  completed code from Week 3}
 
-
-mojo_22_fall_wknd_wide <- mojo_22_fall_wknd |>
-  mutate(max_top10g = (max_top10g/1000000) |> round(4)) |>                # convert to millions
+```r
+mojo_22_fall_wknd_wide &lt;- mojo_22_fall_wknd |&gt;
+  mutate(max_top10g = (max_top10g/1000000) |&gt; round(4)) |&gt;                # convert to millions
   pivot_wider(id_cols=Month, names_from = Day, values_from = max_top10g)  # reshape data
 
-mojo_22_fall_wknd_wide[,2:4] <- round(mojo_22_fall_wknd_wide[,2:4],1)     # round cols 2-4 to one decimal
+mojo_22_fall_wknd_wide[,2:4] &lt;- round(mojo_22_fall_wknd_wide[,2:4],1)     # round cols 2-4 to one decimal
 
-# mojo_22_fall_wknd_wide[,2:4] <- round(mojo_22_fall_wknd_wide[,2:4])     # round cols 2-4 to whole numbers
+# mojo_22_fall_wknd_wide[,2:4] &lt;- round(mojo_22_fall_wknd_wide[,2:4])     # round cols 2-4 to whole numbers
 
-mojo_22_fall_wknd_wide |> write_csv("Week_4_In_Class_First_Name_Last_Name.csv") # export as .csv 
+mojo_22_fall_wknd_wide |&gt; write_csv("Week_4_In_Class_First_Name_Last_Name.csv") # export as .csv 
 
-mojo_22_fall_wknd_wide |> kable()       # create kable table (was not required in Week 3)
-
-
+mojo_22_fall_wknd_wide |&gt; kable()       # create kable table (was not required in Week 3)
 ```
+
+
+
+|Month |    F|   Sa|   Su|
+|:-----|----:|----:|----:|
+|Sep   | 20.2| 21.3| 14.8|
+|Oct   | 41.2| 41.3| 27.7|
+|Nov   | 93.2| 66.6| 47.1|
+|Dec   | 57.9| 51.4| 43.5|
 
 
 
@@ -255,11 +159,11 @@ class: middle
 
 ***NOT ON PointSolutions***
 
-If all the columns in a dataset are numeric, you can round the whole dataset at once with the command `round(<name of dataset>)`.
+If all the columns in a dataset are numeric, you can round the whole dataset at once with the command `round(&lt;name of dataset&gt;)`.
 
 Why wouldn't that work for the dataset in the previous exercise, `mojo_22_fall_wknd_wide`?
 
-<br>
+&lt;br&gt;
 
 Hint: To answer this question, you are encouraged to 
 
@@ -284,13 +188,13 @@ Hint: To answer this question, you are encouraged to
 
 - Data types:
 
-  - numeric (*`<dbl>`*, *`<int>`*)
+  - numeric (*`&lt;dbl&gt;`*, *`&lt;int&gt;`*)
   
-  - character (*`<chr>`*)
+  - character (*`&lt;chr&gt;`*)
   
   - logical (*`lgl`*)
   
-  - factor(*`<fct>`*, *`<ord>`*)
+  - factor(*`&lt;fct&gt;`*, *`&lt;ord&gt;`*)
      - Recall that in Week 3 we discussed how to convert character variables to factors
      
      - Numeric variables can also be converted to factors
@@ -458,8 +362,28 @@ Documentation describes variables by name and explains how the data are coded.
 
 ### Examining Data with `glimpse`
 
-```{r mtcars}
-my_mtcars <- mtcars |> glimpse() # save data to Global Environment and examine
+
+```r
+my_mtcars &lt;- mtcars |&gt; glimpse() # save data to Global Environment and examine
+```
+
+```
+## Rows: 32
+## Columns: 11
+## $ mpg  &lt;dbl&gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.2, 17.8,…
+## $ cyl  &lt;dbl&gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, 4, 4, 8,…
+## $ disp &lt;dbl&gt; 160.0, 160.0, 108.0, 258.0, 360.0, 225.0, 360.0, 146.7, 140.8, 16…
+## $ hp   &lt;dbl&gt; 110, 110, 93, 110, 175, 105, 245, 62, 95, 123, 123, 180, 180, 180…
+## $ drat &lt;dbl&gt; 3.90, 3.90, 3.85, 3.08, 3.15, 2.76, 3.21, 3.69, 3.92, 3.92, 3.92,…
+## $ wt   &lt;dbl&gt; 2.620, 2.875, 2.320, 3.215, 3.440, 3.460, 3.570, 3.190, 3.150, 3.…
+## $ qsec &lt;dbl&gt; 16.46, 17.02, 18.61, 19.44, 17.02, 20.22, 15.84, 20.00, 22.90, 18…
+## $ vs   &lt;dbl&gt; 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0,…
+## $ am   &lt;dbl&gt; 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0,…
+## $ gear &lt;dbl&gt; 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3,…
+## $ carb &lt;dbl&gt; 4, 4, 1, 1, 2, 1, 4, 2, 2, 4, 4, 3, 3, 3, 4, 4, 4, 1, 2, 1, 1, 2,…
+```
+
+```r
 # ?mtcars                        # request data help file
 ```
 
@@ -483,7 +407,7 @@ Click on dataset name in Global Environment.
 This dataset has
 `____` observations (rows).
 
-<br>
+&lt;br&gt;
 
 
 **`Q4.`** Examine this new data set in the **Global Environment** to answer this question:
@@ -495,25 +419,24 @@ The car with the **LOWEST** fuel efficiency (`mpg`) is the
 
 ### All Datasets in Quiz 1 Practice Questions
 
-```{r save datasets to global environment}
 
+```r
 # save R datasets for Quiz 1 to Global Environment
-my_mtcars <- mtcars
-my_diamonds <- diamonds
-my_starwars <- starwars
-my_orange <- Orange
+my_mtcars &lt;- mtcars
+my_diamonds &lt;- diamonds
+my_starwars &lt;- starwars
+my_orange &lt;- Orange
 
 # import these two summary datasets 
 # mn_numreleases is the mean number of releases in movie_smry_w1
-movie_smry_w1 <- read_csv("Movie_Summary_Wide_1.csv", 
+movie_smry_w1 &lt;- read_csv("Movie_Summary_Wide_1.csv", 
                           show_col_types = F)
 # mn_top10gross is the mean gross of the top 10 movies in movie_smry_w2
-movie_smry_w2 <- read_csv("Movie_Summary_Wide_2.csv", 
+movie_smry_w2 &lt;- read_csv("Movie_Summary_Wide_2.csv", 
                           show_col_types = F)
 
 # mojo1999 is the full year of movie data from 1999
-mojo1999 <- read_csv("Box_Office_Mojo_1999.csv", show_col_types = F)
-
+mojo1999 &lt;- read_csv("Box_Office_Mojo_1999.csv", show_col_types = F)
 ```
 
 ---
@@ -530,8 +453,9 @@ mojo1999 <- read_csv("Box_Office_Mojo_1999.csv", show_col_types = F)
 
 This dataset are imported in Question 6 from the Practice Questions.
 
-```{r starwars smry import q6}
-starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
+
+```r
+starwars_smry &lt;- read_csv("Starwars_Summary.csv", show_col_types = F)
 ```
 
 - 3 Questions about `Orange` saved as `my_orange`
@@ -543,7 +467,7 @@ starwars_smry <- read_csv("Starwars_Summary.csv", show_col_types = F)
   
 - 2 Questions about 1 imported full year of Movie data, imported as `mojo_1999`.
   
-<br>
+&lt;br&gt;
   
 ***Questions are designed to be short, but Quiz questions will be a little shorter.***
 
@@ -645,14 +569,33 @@ Hint: Once the dataset is opened, remember that you can click on a column to sor
 
 .pull-left[
 
-```{r Q2 part 1}
-my_mtcars2 <- my_mtcars[6:25, c(1,2,6)] |>
+
+```r
+my_mtcars2 &lt;- my_mtcars[6:25, c(1,2,6)] |&gt;
   glimpse(width = 40)
+```
 
-my_mtcars2 <- my_mtcars2 |>
-  mutate(cylF=factor(cyl)) |> 
+```
+## Rows: 20
+## Columns: 3
+## $ mpg &lt;dbl&gt; 18.1, 14.3, 24.4, 22.8, 19…
+## $ cyl &lt;dbl&gt; 6, 8, 4, 4, 6, 6, 8, 8, 8,…
+## $ wt  &lt;dbl&gt; 3.460, 3.570, 3.190, 3.150…
+```
+
+```r
+my_mtcars2 &lt;- my_mtcars2 |&gt;
+  mutate(cylF=factor(cyl)) |&gt; 
   glimpse(width=40)
+```
 
+```
+## Rows: 20
+## Columns: 4
+## $ mpg  &lt;dbl&gt; 18.1, 14.3, 24.4, 22.8, 1…
+## $ cyl  &lt;dbl&gt; 6, 8, 4, 4, 6, 6, 8, 8, 8…
+## $ wt   &lt;dbl&gt; 3.460, 3.570, 3.190, 3.15…
+## $ cylF &lt;fct&gt; 6, 8, 4, 4, 6, 6, 8, 8, 8…
 ```
 
 ]
@@ -660,13 +603,15 @@ my_mtcars2 <- my_mtcars2 |>
 .pull-right[
 - Plot is saved as `mtcars_scatter`
 - Code is enclosed in parentheses so plot appears on screen
-- **TO EXPORT PLOT:** Right click on it > Save As > ... 
-```{r Q2 part 2, fig.dim=c(5,3)}
-(mtcars_scatter <- my_mtcars2 |>    
+- **TO EXPORT PLOT:** Right click on it &gt; Save As &gt; ... 
+
+```r
+(mtcars_scatter &lt;- my_mtcars2 |&gt;    
    ggplot() +
    geom_point(aes(x=wt, y=mpg, color=cylF)))
-
 ```
+
+&lt;img src="docs_files/figure-html/Q2 part 2-1.png" width="360" /&gt;
 
 ]
 
@@ -679,11 +624,11 @@ my_mtcars2 <- my_mtcars2 |>
 
 **`Q1`** How many categories are in the cyl (cylinder) variable in the dataset you created?
 
-<br>
+&lt;br&gt;
 
 **`Q2`** The lowest mpg in your new dataset is
 
-<br>
+&lt;br&gt;
 
 **`Q3`** Based on the plot, specify whether the correlation between each pair of variables is positive (1) or negative (2).
 
@@ -748,3 +693,142 @@ You may submit an 'Engagement Question' about each lecture until midnight on the
 
 
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%/%total%",
+"highlightStyle": "tomorrow-night-bright",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true,
+"keep_md": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
